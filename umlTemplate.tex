@@ -1,0 +1,26 @@
+
+\documentclass[11pt]{article} % Font size
+\usepackage[a4paper, total={6in, 10.5in}]{geometry} % Margins
+
+\usepackage{graphicx}
+
+% Two packages needed
+\usepackage{tikz}
+\usepackage[simplified]{pgf-umlcd} % [simplified] removes whitespace for classes who dont have attributes or methods
+
+
+\title{\textbf{Title}}
+\author{Author}
+\date{Date}
+
+\begin{document}
+\maketitle
+
+\begin{tikzpicture}
+  \begin{class}[text width=10cm ]{ArffConvert}{0, 0}
+    \attribute{+ examplePublicAttribute : type}
+    \operation{+ examplePublicMethod() : return type}
+  \end{class}
+\end{tikzpicture}
+
+\end{document}
