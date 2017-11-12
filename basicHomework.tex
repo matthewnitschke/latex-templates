@@ -4,6 +4,7 @@
 
 \usepackage{graphicx}
 
+\providecommand{\question}[1]{\item #1}
 \providecommand{\answer}[1]{\\[1.3mm]\textbf{#1}}
 
 
@@ -19,6 +20,14 @@
 
 \begin{document}
 \maketitle
+
+\begin{enumerate}
+
+\question{This is a question}
+\answer{This is the answer}
+
+\end{enumerate}
+
 
 % Example Image import
 % \includegraphics[scale=<scaleAmount>]{<imageName, no extension>}
